@@ -1,0 +1,44 @@
+/* Header */ 
+header { 
+text-align: center; 
+background: rgb(185, 220, 232); 
+padding: 10px; 
+} 
+/* INLINE-BLOCK MENU (CENTER) */ 
+.inline-block-menu ul { 
+list-style: none; 
+padding: 0; 
+margin: 10px 0; 
+text-align: center; 
+} 
+.inline-block-menu ul li { 
+display: inline-block; 
+margin: 5px; 
+} 
+.inline-block-menu a { 
+text-decoration: none; 
+color: black; 
+padding: 5px 10px; 
+background:rgb(243, 176, 186); 
+} 
+/* FLOAT MENU (CENTER USING INLINE-BLOCK WRAPPER) */ 
+.float-menu ul { 
+list-style: none; 
+padding: 0; 
+margin: 10px 0; 
+text-align: center; 
+} 
+.float-menu ul li { 
+display: inline-block; 
+margin: 5px; 
+} 
+.float-menu a { 
+text-decoration: none; 
+color: black; 
+padding: 5px 10px; 
+background:rgb(162, 206, 162); 
+} 
+/* CLEAR */ 
+.clear { 
+clear: both; 
+}
